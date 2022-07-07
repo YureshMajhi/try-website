@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header-logo">
+        <img src="Images/Yuresh.png" alt="" />
+      </div>
+      <div class="header-search">
+        <input class="search" type="text" placeholder="Search" />
+      </div>
+      <div class="header-extras">
+        <a href="#home">
+          <div class="home-container">
+            <img src="Images/home-icon.png" alt="" />
+            <div class="tooltip-home"><p>Home</p></div>
+          </div>
+        </a>
+        <div class="messages-container">
+          <img src="Images/message-icon.png" alt="" />
+          <div class="tooltip-messages"><p>Messages</p></div>
+        </div>
+        <div class="profile-container">
+          <img class="user-picture" src="Images/user.jpg" alt="" />
+          <div class="tooltip-profile"><p>Profile</p></div>
+        </div>
+        <div class="settings-container">
+          <img src="Images/settings-icon.png" alt="" />
+          <div class="tooltip-settings"><p>Settings</p></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- sidebar -->
+    <nav>
+      <a href="#html">
+        <div><p>HTML</p></div>
+      </a>
+      <a href="#css">
+        <div><p>CSS</p></div>
+      </a>
+      <a href="#javascript">
+        <div><p>JavaScript</p></div>
+      </a>
+    </nav>
+
+    <div class="grid">
+      <!-- section -->
+      <section>
+        <h1 id="home">Start learning Web Designing on my Website</h1>
+        <div>
+          <!-- heaading-box -->
+          <div class="heading-box">
+            <ul>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                  dolorum ducimus magnam enim iste officiis quam et esse
+                  nesciunt a?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                  debitis velit beatae reiciendis tempora molestias.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Itaque, maiores.
+                </p>
+              </li>
+            </ul>
+            <button id="html">Start your free course now &#62;&#62;</button>
+          </div>
+        </div>
+        <!-- chapter-1 -->
+        <div class="chapter">
+          <h2>1.HTML</h2>
+          <div class="heading-box">
+            <ul>
+              <li>
+                <p>HTML is the standard markup language for Web pages.</p>
+              </li>
+              <li>
+                <p>With HTML you can create your own Website.</p>
+              </li>
+              <li>
+                <p>HTML is easy to learn - You will enjoy it!</p>
+              </li>
+            </ul>
+            <button>Study HTML below &#62;&#62;</button>
+          </div>
+          <h3>Example</h3>
+          <!-- code -->
+          <div class="code">
+            &#60;html&#62;<br />
+            &#60;head&#62;<br />
+            &#60;title&#62;Page Title&#60;/title&#62;<br />
+            &#60;/head&#62;<br />
+            &#60;body&#62;<br />
+            &#60;h1&#62;This is a Heading&#60;/h1&#62;<br />
+            &#60;p&#62;This is a paragraph.&#60;/p&#62;<br />
+            &#60;/body&#62;<br />
+            &#60;/html&#62;<br />
+          </div>
+          <button class="html-button" id="css">
+            Try it yourself &#62;&#62;
+          </button>
+        </div>
+        <!-- chapter-2 -->
+        <div class="chapter">
+          <h2>2.CSS</h2>
+          <div class="heading-box">
+            <ul>
+              <li>
+                <p>CSS is the language we use to style an HTML document.</p>
+              </li>
+              <li>
+                <p>CSS describes how HTML elements should be displayed.</p>
+              </li>
+              <li>
+                <p>This tutorial will teach you CSS from basic to advanced.</p>
+              </li>
+            </ul>
+            <button>Study CSS below &#62;&#62;</button>
+          </div>
+          <h3>Example</h3>
+          <!-- code -->
+          <div class="code">
+            body {<br />
+            background-color: lightblue;<br />
+            }<br />
+            h1 {<br />
+            color: white;<br />
+            text-align: center;<br />
+            }<br />
+            p {<br />
+            font-family: verdana;<br />
+            font-size: 20px;<br />
+            }<br />
+          </div>
+          <button class="html-button" id="javascript">
+            Try it yourself &#62;&#62;
+          </button>
+        </div>
+        <!-- chapter-3 -->
+        <div class="chapter">
+          <h2>3.JavaScript</h2>
+          <div class="heading-box">
+            <ul>
+              <li>
+                <p>
+                  JavaScript is the world's most popular programming language.
+                </p>
+              </li>
+              <li>
+                <p>JavaScript is the programming language of the Web.</p>
+              </li>
+              <li>
+                <p>JavaScript is easy to learn.</p>
+              </li>
+            </ul>
+            <button>Study JavaScript below &#62;&#62;</button>
+          </div>
+          <h3>Example</h3>
+          <!-- code -->
+          <div class="code">
+            // How to create variables: <br />
+            var x;<br />
+            let y;<br />
+            // How to use variables:<br />
+            x = 5;<br />
+            y = 6;<br />
+            let z = x + y;<br />
+          </div>
+          <button class="html-button">Try it yourself &#62;&#62;</button>
+        </div>
+      </section>
+      <!-- ads -->
+      <div class="ads-container">
+        <div><img src="Images/ad.png" alt="" /></div>
+        <div><img src="Images/ad.png" alt="" /></div>
+        <div><img src="Images/ad.png" alt="" /></div>
+        <div><img src="Images/ad.png" alt="" /></div>
+        <div><img src="Images/ad.png" alt="" /></div>
+        <div><img src="Images/ad.png" alt="" /></div>
+        <div><img src="Images/ad.png" alt="" /></div>
+      </div>
+    </div>
+  </body>
+</html>
